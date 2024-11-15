@@ -9,7 +9,15 @@ understanding css writing way
 
 understanding width, height 
 understanding units, px and % 
+    
+    px are fixed value of units
+    % is relative to the space in which it exits 
+
 understanding margin padding
+
+    margin  : space between two elements, this applies outside of the element
+    padding : space along the boundry, created inside the element. 
+
 understanding background image and things related to it
 understanding position absolute 
 understanding flexbox

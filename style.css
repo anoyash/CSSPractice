@@ -23,7 +23,7 @@ p{
 
 /* Using a . for pointing to a class para2 */
 
-#para2{
+.para2{
     color: blue ;
 }
 
@@ -32,4 +32,17 @@ p{
 
 #para3{
     color: red ;
+}
+
+#maindiv{
+    width: 30%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 2%;
+    text-decoration-color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
 }
