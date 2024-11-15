@@ -3,6 +3,10 @@ understanding css file
 understanding linking 
 CSS boilerplate
 understanding css writing way 
+
+    order of specificity in CSS
+    Inline Styling --> ID styling --> CLASS styling --> Tag styling */
+
 understanding width, height 
 understanding units, px and % 
 understanding margin padding

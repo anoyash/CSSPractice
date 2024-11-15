@@ -9,3 +9,27 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+/* Now, starts from here */
+
+/* Order of specificity in CSS
+--> Inline Styling --> ID styling --> CLASS styling --> Tag styling */
+
+/* Generic styling for all the p tag */
+
+p{
+    color: violet;
+}
+
+/* Using a . for pointing to a class para2 */
+
+#para2{
+    color: blue ;
+}
+
+
+/* Using # for pointing to a ID para3 */
+
+#para3{
+    color: red ;
+}
