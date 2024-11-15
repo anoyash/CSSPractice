@@ -46,3 +46,51 @@ p{
     border-color: black;
     border-radius: 10px;
 }
+
+#maindiv2{
+    width: 30%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 2%;
+
+    background-image: linear-gradient(orange,white,green);  
+    
+    border-style: solid;
+
+    border-color: black;
+    border-radius: 10px;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+#car1{
+    position:absolute;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#car2{
+    position:absolute;
+    text-align: center;
+    font-weight: bold;
+    height: 200px;
+    width: 80px;
+    background-color: blue;
+}
+
+#car3{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+    width: 200px;
+    background-color: green;
+}
+
+/* After making all the car 1,2,3 absolute
+height of 3 > height of 2 > height 1
+So, the element coming after wards will have more height  */
