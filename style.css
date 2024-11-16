@@ -74,7 +74,7 @@ p{
 }
 
 #car2{
-    position:absolute;
+    /* position:absolute; */
     text-align: center;
     font-weight: bold;
     height: 200px;
@@ -83,7 +83,7 @@ p{
 }
 
 #car3{
-    position: absolute;
+    /* position: relative; */
     text-align: center;
     font-weight: bold;
     height: 100px;
@@ -94,3 +94,43 @@ p{
 /* After making all the car 1,2,3 absolute
 height of 3 > height of 2 > height 1
 So, the element coming after wards will have more height  */
+
+#box-container{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin: 2%;
+    padding: 2%;
+    border:1px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(aqua,yellow);
+}
+
+
+#box1{
+    height: 20%;
+    width: 20%;
+    color: red;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#box2{
+    height: 20%;
+    width: 20%;
+    color: blue;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#box3{
+    height: 20%;
+    width: 20%;
+    text-align: center;
+    color: maroon;
+    border: 1px solid black;
+}

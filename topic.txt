@@ -35,3 +35,11 @@ understanding position absolute and relative
         5. Types of position : fixed , relative , absolute , sticky , static     
 
 understanding flexbox
+
+    1. If we want to work along the width , use : justify-content
+    2. If we want to work along the height , use : align-items
+
+    3. By default elements displayed in one after another in downward direction.
+
+    4. If we set the CSS propery display : flex . Then the children displayed inside the element displayed in 
+    the horizontal manner
