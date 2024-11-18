@@ -1,13 +1,14 @@
 /* boiller plate for css  */
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 /* Now, starts from here */
@@ -17,120 +18,122 @@ html,body{
 
 /* Generic styling for all the p tag */
 
-p{
-    color: violet;
+p {
+  color: violet;
 }
 
 /* Using a . for pointing to a class para2 */
 
-.para2{
-    color: blue ;
+.para2 {
+  color: blue;
 }
-
 
 /* Using # for pointing to a ID para3 */
 
-#para3{
-    color: red ;
+#para3 {
+  color: red;
 }
 
-#maindiv{
-    width: 30%;
-    height: 20%;
-    margin-top: 2%;
-    margin-left: 2%;
-    padding: 2%;
-    text-decoration-color: black;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
+#maindiv {
+  width: 30%;
+  height: 20%;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 2%;
+  text-decoration-color: black;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
 }
 
-#maindiv2{
-    width: 30%;
-    height: 20%;
-    margin-top: 2%;
-    margin-left: 2%;
+#maindiv2 {
+  width: 30%;
+  height: 20%;
+  margin-top: 2%;
+  margin-left: 2%;
 
-    background-image: linear-gradient(orange,white,green);  
-    
-    border-style: solid;
+  background-image: linear-gradient(orange, white, green);
 
-    border-color: black;
-    border-radius: 10px;
+  border-style: solid;
 
-    font-weight: bold;
-    text-align: center;
+  border-color: black;
+  border-radius: 10px;
+
+  font-weight: bold;
+  text-align: center;
 }
 
-#car1{
-    position:absolute;
-    text-align: center;
-    font-weight: bold;
-    height: 100px;
-    width: 100px;
-    background-color: red;
+#car1 {
+  text-align: start;
+  font-weight: bold;
+  height: 100px;
+  width: 100px;
+  background-color: lightsalmon;
+  position: absolute;
 }
 
-#car2{
-    /* position:absolute; */
-    text-align: center;
-    font-weight: bold;
-    height: 200px;
-    width: 80px;
-    background-color: blue;
+/* relative > fixed  > */
+
+#car2 {
+  text-align: start;
+  font-weight: bold;
+  margin-left: 3%;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  position: absolute;
 }
 
-#car3{
-    /* position: relative; */
-    text-align: center;
-    font-weight: bold;
-    height: 100px;
-    width: 200px;
-    background-color: green;
+#car3 {
+  text-align: start;
+  font-weight: bold;
+  margin-left: 6%;
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  position: absolute;
 }
 
 /* After making all the car 1,2,3 absolute
 height of 3 > height of 2 > height 1
 So, the element coming after wards will have more height  */
 
-#box-container{
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
-    align-items: center;
-    height: 400px;
-    width: 400px;
-    margin: 2%;
-    padding: 2%;
-    border:1px solid black;
-    border-radius: 5px;
-    background-image: linear-gradient(aqua,yellow);
+#box-container {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: linear-gradient(aqua, yellow);
 }
 
-
-#box1{
-    height: 20%;
-    width: 20%;
-    color: red;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid black;
+#box1 {
+  height: 20%;
+  width: 20%;
+  color: red;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
 }
 
-#box2{
-    height: 20%;
-    width: 20%;
-    color: blue;
-    text-align: center;
-    border: 1px solid black;
+#box2 {
+  height: 20%;
+  width: 20%;
+  color: blue;
+  text-align: center;
+  border: 1px solid black;
 }
 
-#box3{
-    height: 20%;
-    width: 20%;
-    text-align: center;
-    color: maroon;
-    border: 1px solid black;
+#box3 {
+  height: 20%;
+  width: 20%;
+  text-align: center;
+  color: maroon;
+  border: 1px solid black;
 }
