@@ -50,4 +50,47 @@ understanding flexbox
 
 1. Welcome to learn CSS 
 2. Box model
-    -> Every thing displayed by CSS is a box model
+    -> Every thing displayed by CSS is a box model.
+    -> Extrinsic sizing vs intrinsic sizing 
+    -> Extrinsic sizing : When the CSS element box is having the specified width , its extrinsically sized.
+       It means the size explicitly defined for an element using properties like width and height.
+       Means element takes on a specified size regardless of its content, essentially setting the size,
+       based on the external factors w/o considering its content size.
+    -> intrinsic sizing : 
+       For example if content size is over flowing width wise, we can give width property of 
+       width : min-content. ( So, it tells the box to take minimum intrinsic size)
+    
+    -> Intrinsic size : its the size of an element purely based on its content without taking into 
+       account the effects of the context in which it is displayed. 
+       * Intrinsic size are represent by min-content and max-content 
+       * The inline-size of CSS property defines the height and width of the an element's block.
+
+       * min-content -> Gives minimum intrinsic size to the element
+                     -> The minimum size the content would take inside a container with an inline-size of 0 px.
+                     -> So, that minimum size would be the length of the longest word or longest child content in it.
+
+       * max-content -> Its the opposite of the min-content
+                     -> max-size the content would take inside a container with an inline size of infinite
+
+    -> Extrinsic sizing gives developer more control, on the other hand intrinsic sizing gives the content
+       more control.
+
+    -> # Overflow happens when content is too big for the box it's in. You can manage how the element 
+         handles the overflow content using overflow property #
+    
+    -> w.r.to Height 
+    Scenario	            min-content	                                    max-content
+    Text Content	        Shrinks height by wrapping lines tightly	    Grows height to avoid wrapping lines
+    Non-Breakable Content	Shrinks to the natural size of the content	    Expands to the natural size of the content
+    Overflow	            No overflow; height adjusts tightly	            Can cause height overflow(?? gpt)
+
+    -> Content Box -> Padding Box -> Border Box --> Margni Box
+
+    -> Content box : the area where the content lives. the content can control the size of its parent.
+    -> Padding : surrounds the content and its inside the content box. If the box has overflow rules 
+                 the scroll bars also occupies this space.
+    -> Margin  :  outside of the border area.
+
+    ->CSS uses default box-sizing : content-box , so if i give width it will appy to content box only
+                       box-sizing : border-box , so If i give width it will apply to content ( border and 
+                       padding will move inside , inclusive of it )
