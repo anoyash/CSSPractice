@@ -43,3 +43,11 @@ understanding flexbox
 
     4. If we set the CSS propery display : flex . Then the children displayed inside the element displayed in 
     the horizontal manner
+
+
+
+/**** web.Dev Notes *****/
+
+1. Welcome to learn CSS 
+2. Box model
+    -> Every thing displayed by CSS is a box model
