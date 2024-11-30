@@ -117,6 +117,8 @@ understanding flexbox
    While "max-content" lets it expand to its natural size based on its content
 
 3. Selectors 
+      -> /universal , type , class , id , attribute , Grouping selector , complex selector and compound 
+      selector
    
       -> Universal selector ( * )
        It is also known as wildcard , it applies to every element on the webpage.
@@ -160,6 +162,19 @@ understanding flexbox
          color : red
         }
       
-4. Pseudo Classes and elements
+      -> Pseudo Classes and elements
 
-      -> Pseudo-class
+            -> Pseudo-class , we use : 
+            -> Pseudo-elements , we use :: 
+
+      -> Complex selectors  : This will apply to styling to all the p tag inside my div.
+
+      div p{
+
+      }   
+
+      -> Compound selector : <a class="my-class"> </a>
+
+      a.my-class{
+         color : red;
+      }
