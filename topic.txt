@@ -138,3 +138,28 @@ understanding flexbox
         } 
       
       ->Attribute selector : 
+        <div data-type="primary"></div>
+
+        [data-type = 'primary']{
+         color : red;
+        }
+
+        If we simply want to apply to data-type Attribute
+
+        [data-type ]{
+         color : red;
+        }
+
+      -> Grouping selector : we can apply same styling to multiple HTML elements using different type of 
+        selector at once.
+
+        strong,
+        em,
+        .class-selector,
+        [data-type]{
+         color : red
+        }
+      
+4. Pseudo Classes and elements
+
+      -> Pseudo-class
