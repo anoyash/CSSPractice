@@ -93,7 +93,7 @@ understanding flexbox
     Non-Breakable Content	Shrinks to the natural size of the content	   Expands to the natural size of the content
     Overflow	            No overflow; height adjusts tightly	            Can cause height overflow(?? gpt)
 
-    -> Content Box -> Padding Box -> Border Box --> Margni Box
+    -> Content Box -> Padding Box -> Border Box --> Margin Box
 
     -> Content box : the area where the content lives. the content can control the size of its parent.
     -> Padding : surrounds the content and its inside the content box. If the box has overflow rules 
