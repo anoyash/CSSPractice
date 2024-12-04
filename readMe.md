@@ -1,6 +1,10 @@
 # CSS Topics
+
 <ol>
   <li>Understanding CSS and how to link it with HTML</li>
+  <ul>
+    <li>Inline Styling -> ID styling -> (Class Styling/Attribute/Pseudo-classes) -> eleemtns/Pseudo elements -> Universal (*) -> Browser default styling 😏</li>
+  <ul>
   <li>CSS Box Model </li>
   <ol>
     <li>Extrinsic sizing</li>
