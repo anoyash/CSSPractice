@@ -29,4 +29,11 @@
     <li><strong>Pseudo Class , we use : </strong></li>
     <li><strong>Pseudo Elements , we use :: </strong></li>
   </ol>
+  <li>CSS position property</li>
+  <ol>
+    <li>Non-positioned elements</li>
+    <li>Positioned elements : relative , absolute , fixed , static </li>
+    <li>z-index : It will be auto , if no value is provided explicitly for the postioned elements</li>
+    <li>Sticky needs to be understand separately ( undone )</li>
+  </ol>
 </ol>
