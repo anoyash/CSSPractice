@@ -7,15 +7,22 @@
     <li>Intrinsic sizing</li>
     <li>CSS property min-content vs max-content</li>
     <li>Content Box -> Padding Box -> Border Box -> Margin </li>
+    <li><p>While "max-content" represents the ideal size an element would take if given unlimited space,
+   Allowing it to expand to fit its full content without wrapping or shrinking;
+   Essentially, "min-content" makes an element as small as possible,
+   While "max-content" lets it expand to its natural size based on its content</p></li>
   </ol>
   <li>CSS Selectors</li>
   <ol>
-    <li>Universal selector</li>
-    <li>Type selector</li>
-    <li>Class selector</li>
-    <li>Id selector</li>
-    <li>Grouping selectors</li>
-    <li>Complex selector<li>
-    <li>Compound selector</li>
+    <li>Universal selector (*)</li>
+    <li>Type selector (give element name)</li>
+    <li>Class selector (.)</li>
+    <li>Id selector (#) </li>
+    <li>Attribute selector [data-type] , where data-type will be attribute to the HTML element </li>
+    <li>Grouping selectors : same styling can be applied to multiple HTML elemeents and selectors</li>
+    <li>Complex selector => div p { }</li>
+    <li>Compound selector => {<aa CLASS="my-class"> </aa>} aa.my-class { color : red } </li>
+    <li><strong>Pseudo Class , we use : </strong></li>
+    <li><strong>Pseudo Elements , we use :: </strong></li>
   </ol>
 </ol>
