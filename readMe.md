@@ -31,9 +31,19 @@
   </ol>
   <li>CSS position property</li>
   <ol>
-    <li>Non-positioned elements</li>
-    <li>Positioned elements : relative , absolute , fixed , static </li>
+    <li>Non-positioned elements : static ( normal flow )</li>
+    <li>Positioned elements : relative , absolute , fixed , sticky </li>
     <li>z-index : It will be auto , if no value is provided explicitly for the postioned elements</li>
     <li>Sticky needs to be understand separately ( undone )</li>
   </ol>
+  <li>RGB Vs RGBA CSS colors</li>
+  <ul>
+    <li>
+      Red Green and Blue , each have value range from 0 to 255.
+    </li>
+    <li>
+      RGBA contains one extra parameter : Alpha channel which controls transparency. Its values 
+      ranges from 0 to 1. 1 -> no transparent at all and 0 -> (fully transparent)
+    </li>
+  </ul>
 </ol>
