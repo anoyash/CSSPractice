@@ -46,4 +46,5 @@
       ranges from 0 to 1. 1 -> no transparent at all and 0 -> (fully transparent)
     </li>
   </ul>
+  <li>Responsive ness</li>
 </ol>

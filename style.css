@@ -14,7 +14,7 @@ body {
 /* Now, starts from here */
 
 /* Order of specificity in CSS
---> Inline Styling --> ID styling --> CLASS styling --> Tag styling */
+    Inline Styling --> ID styling --> (CLASS styling/Attribute/Pseduo-classes) --> Tag styling */
 
 /* Generic styling for all the p tag */
 
