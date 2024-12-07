@@ -1,0 +1,125 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /* position:  relative; giving is a good approach */
+}
+
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1.5px solid #e8e4e4;
+  /* along y-axis center karega */
+  /* justify-content: center; */
+  /* along x-axis center karega */
+  justify-content: space-between;
+  padding: 0 4vw;
+}
+
+.nav-part {
+  display: flex;
+  /* justify-content: space-evenly; or space-between will not work , because there is no space*/
+  gap: 2vw;
+  /*AS soon as I will start using percentage in gap it will start overflowing from nav container 
+  gap : 2%; is causing problem
+  */
+  align-items: center;
+}
+
+.nav h2 {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.nav h4 {
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+.nav i {
+  font-size: 1.2vw;
+  display: none;
+}
+
+.content {
+  height: calc(100% - 100px);
+  /* space is important */
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.left {
+  height: 100%;
+  width: 58%;
+  padding: 100px 4vw;
+}
+
+.left h1 {
+  font-size: 3.3vw;
+  line-height: 4.4vw;
+  padding: 1vw 4vw;
+}
+
+.left p {
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #666;
+  padding: 3vw 4vw;
+}
+
+.left button {
+  border: none;
+  font-size: 1.5vw;
+  padding: 1.1vw 2.1vw;
+  color: white;
+  background-color: lightseagreen;
+  border-radius: 5%;
+  margin-left: 4vw;
+}
+
+h1 span {
+  color: lightseagreen;
+  font-family: cursive;
+}
+
+.right {
+  height: 100%;
+  width: 42%;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    color: white;
+    padding: 0 6vw;
+    background-color: lightseagreen;
+  }
+  .nav h2 {
+    font-size: 6vw;
+  }
+  .nav h4 {
+    display: none;
+  }
+  .nav i {
+    font-size: 9vw;
+    font-weight: 800;
+    display: initial;
+    border-radius: 10%;
+  }
+}
