@@ -24,7 +24,6 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  border-bottom: 1.5px solid #e8e4e4;
   /* along y-axis center karega */
   /* justify-content: center; */
   /* along x-axis center karega */
@@ -45,11 +44,22 @@ body {
 .nav h2 {
   font-size: 2vw;
   font-weight: 700;
+  color: lightseagreen;
 }
 
 .nav h4 {
   font-size: 1vw;
   font-weight: 700;
+  color: lightseagreen;
+}
+
+.nav button {
+  border: none;
+  font-size: 1vw;
+  padding: 0.7vw;
+  color: white;
+  border-radius: 5%;
+  background-color: lightseagreen;
 }
 
 .nav i {
@@ -63,13 +73,13 @@ body {
   width: 100%;
   display: flex;
   position: relative;
-  flex-wrap: nowrap;
 }
 
 .left {
   height: 100%;
   width: 58%;
   padding: 100px 4vw;
+  text-align: left;
 }
 
 .left h1 {
@@ -105,22 +115,16 @@ h1 span {
 .right {
   height: 100%;
   width: 42%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 2.5vw;
-  padding-left: 4vw;
 }
 
 .right img {
-  height: 90%;
-  width: 91%;
+  height: 100%;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
   .nav {
-    color: white;
     padding: 0 6vw;
-    background-color: lightseagreen;
   }
   .nav h2 {
     font-size: 6vw;
@@ -133,5 +137,28 @@ h1 span {
     font-weight: 800;
     display: initial;
     border-radius: 10%;
+    color: lightseagreen;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content button {
+    display: none;
+  }
+  .left {
+    height: 50%;
+    width: 100%;
+  }
+  .left h1 {
+    font-size: 7vw;
+    line-height: 7vw;
+  }
+  .left p {
+    font-size: 3vw;
+  }
+  .right {
+    height: 50%;
+    width: 70%;
   }
 }
