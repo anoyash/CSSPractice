@@ -63,6 +63,7 @@ body {
   width: 100%;
   display: flex;
   position: relative;
+  flex-wrap: nowrap;
 }
 
 .left {
@@ -73,25 +74,27 @@ body {
 
 .left h1 {
   font-size: 3.3vw;
-  line-height: 4.4vw;
-  padding: 1vw 4vw;
+  line-height: 4.1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 .left p {
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   font-weight: 600;
   color: #666;
-  padding: 3vw 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-bottom: 1.5vw;
 }
 
 .left button {
   border: none;
   font-size: 1.5vw;
-  padding: 1.1vw 2.1vw;
+  padding: 1vw 2vw;
   color: white;
   background-color: lightseagreen;
   border-radius: 5%;
-  margin-left: 4vw;
 }
 
 h1 span {
@@ -102,6 +105,15 @@ h1 span {
 .right {
   height: 100%;
   width: 42%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 2.5vw;
+  padding-left: 4vw;
+}
+
+.right img {
+  height: 90%;
+  width: 91%;
 }
 
 @media (max-width: 600px) {
