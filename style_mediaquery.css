@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  border: 5px solid black;
+  background-color: crimson;
+}
+
+@media (max-width: 600px) {
+  /* this will be applied when my width max to max reaches 600px */
+  /* read more about typical break-points based on different device sizes */
+
+  .box {
+    background-color: aqua;
+    border-radius: 50%;
+  }
+}

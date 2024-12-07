@@ -1,0 +1,49 @@
+--> Understanding Units
+    - px            : pixels are always fixed
+    - %             : percentage of the parent container 
+    - vw , vh       : vw : (view port width) , vh : (view port height) : [ based on the screen size ] 
+    - vmax , vmin   : view port maximum and view port minimum 
+                    {
+                        * In respect to Desktop my width is more 
+                        * In respect to Phone my height is more
+                        * One interestion point , for eg , we have given width as 7vmax and we start to reduce
+                        the screen width, at a certain point width becomes lesser than height, then further
+                        reduction in width from that point does not affect the size of object. To see the
+                        effect we need to further reduce the height 
+                    } 
+    - em, rem       : em : element measurement and rem : root element measurement ( mostly <html> )
+                    {
+                        em : relative to font-size of the parent element
+                        rem : relative to font-size of the root elementary (Usually html )
+                        For eg : if font-size of parent is : 16px
+                        then, 1 em = 16px and 2px = 32px and so on 
+                    } 
+
+--> Layout of the website
+    - absolute vs flex
+    - Try to minimise the use of absolute position
+    - display flex 
+    - {
+        display-wrap : wrap; 
+        flex-direction : column; 
+      }
+
+--> Flexbox
+    - Display flex
+    - Aligning items in x and y axis
+    - flex direction
+    - flex wrap
+
+--> CSS media queries
+    - Used to create different behaviour based on our screen size
+
+
+Key points to keep in mind to make website responsive
+
+1. CSS Flexbox
+2. CSS Units
+3. Responsive typography
+4. Mobile-First Approach : Always think about how it will look when seen in mobile 
+5. Flexible Images and Media
+
+Do Practice ! Practice ! Practice

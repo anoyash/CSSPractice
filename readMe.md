@@ -4,6 +4,7 @@
   <li>Understanding CSS and how to link it with HTML</li>
   <ul>
     <li>Inline Styling -> ID styling -> (Class Styling/Attribute/Pseudo-classes) -> eleemtns/Pseudo elements -> Universal (*) -> Browser default styling 😏</li>
+    <li>CSS boilerplate code</li>
   </ul>
   <li>CSS Box Model </li>
   <ol>
@@ -47,4 +48,9 @@
     </li>
   </ul>
   <li>Responsive ness</li>
+  <ol>
+    <li> px , % , vh and vw , vmax and vmin , em and rem</li>
+    <li>Flex display</li>
+    <li>Media queries</li>
+  <ol>
 </ol>
